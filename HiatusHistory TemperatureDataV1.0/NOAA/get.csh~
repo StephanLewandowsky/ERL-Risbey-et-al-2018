@@ -1,0 +1,5 @@
+foreach name (*.txt.??)
+set date = `awk '/^[12]/{n1 = $1; n2 = $2}END{printf "%04d%02d",n1,n2}' $name`
+awk '/^[12]/{print $1+$2/12.-1/24.}' $name > NOAA.$date.temp
+end
+
