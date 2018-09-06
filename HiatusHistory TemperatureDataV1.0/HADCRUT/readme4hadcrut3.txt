@@ -1,0 +1,1 @@
+HadCRUT.3_201405.temp manually truncated to 2012 (i.e. latest version betfore Had4 became available)
